@@ -36,6 +36,7 @@ jp2sql-api/
 1. 依存インストール
 ``` bash
 python -m venv .venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
